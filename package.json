@@ -1,6 +1,6 @@
 {
-  "name": "react-alice-carousel",
-  "version": "2.5.1",
+  "name": "@productwindtom/react-alice-carousel",
+  "version": "2.5.2",
   "description": "React image gallery, react slideshow carousel, react content rotator",
   "main": "./lib/react-alice-carousel.js",
   "types": "./lib/react-alice-carousel.d.ts",
@@ -51,10 +51,7 @@
   ],
   "author": "Max Marinich",
   "maintainers": [
-    {
-      "name": "Max Marinich",
-      "email": "max.marinich@gmail.com"
-    }
+    "Max Marinich <max.marinich@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -128,5 +125,8 @@
       "pre-commit": "npm run precommit",
       "pre-push": "npm run precommit"
     }
+  },
+  "directories": {
+    "test": "tests"
   }
 }
