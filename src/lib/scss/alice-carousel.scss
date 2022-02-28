@@ -58,9 +58,7 @@ $play-btn-size: 32px !default;
     white-space: normal;
 
     line-height: 0;
-    * {
-      line-height: initial;
-    }
+
     &.__hidden {
       opacity: 0;
       overflow: hidden;
